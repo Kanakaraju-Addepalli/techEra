@@ -1,0 +1,31 @@
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 32px;
+  padding-left: 40px;
+  margin-top: 0px;
+}
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
